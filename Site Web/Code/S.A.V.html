@@ -60,35 +60,35 @@
         <form>
             <div class="customer-info">
               <label for="name">Nom & Prénom:</label>
-              <input type="text" id="name" name="name">
+              <input type="text" id="name" name="name" required="">
           
               <label for="phone_number">N° Tel:</label>
-              <input type="tel" id="phone_number" name="phone_number">
+              <input type="tel" id="phone_number" name="phone_number" required="">
           
               <label for="address">Adresse:</label>
-              <textarea id="address" name="address"></textarea>
+              <textarea id="address" name="address" required=""></textarea>
             </div>
           
             <div class="machine-info">
               <label for="machine">Machine:</label>
-              <input type="text" id="machine" name="machine">
+              <input type="text" id="machine" name="machine" required="">
           
               <label for="brand">Marque:</label>
-              <input type="text" id="brand" name="brand">
+              <input type="text" id="brand" name="brand" required="">
           
               <label for="serial_number">N° Série:</label>
-              <input type="text" id="serial_number" name="serial_number">
+              <input type="text" id="serial_number" name="serial_number" required="">
             </div>
             <div class="details">
                 <br><br>
                 <div class="type">
                     <h2>Type d'intervention: </h2>
-                    <p>Réparation</p><br><input type="radio" name="type">
-                    <p>Garantie</p><br><input type="radio" name="type">
-                    <p>Mise En Marche</p><br><input type="radio" name="type">
+                    <p>Réparation</p><br><br><input type="radio" name="type" required="">
+                    <p>Garantie</p><br><input type="radio" name="type" required="">
+                    <p>Mise En Marche</p><br><input type="radio" name="type" required="">
                 </div><br><br>
                 <h2>Pannes Préventives: </h2><br><br>
-                <textarea name="" id="" cols="15" rows="3"></textarea><br><br>
+                <textarea name="" id="" cols="15" rows="3" required=""></textarea><br><br>
             
                 <h2>Pièce Accompagné: </h2><br><br>
                 <div class="checkbox-group">

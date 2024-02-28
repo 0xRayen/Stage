@@ -114,8 +114,9 @@ button:hover{
     color: var(--primaryRed);
 }
 
-
-
+a{
+	text-decoration: none;
+}
 
 .login label{
 	color: var(--primaryRed);

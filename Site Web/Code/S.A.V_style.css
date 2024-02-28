@@ -39,8 +39,8 @@ button:hover{
 header { 
     border-bottom: 2px solid ;
     box-shadow: 4px 25px 65px -50px rgba(0,0,0,0.21);
--webkit-box-shadow: 4px 25px 65px -50px rgba(0,0,0,0.21);
--moz-box-shadow: 4px 25px 65px -50px rgba(0,0,0,0.21);
+    -webkit-box-shadow: 4px 25px 65px -50px rgba(0,0,0,0.21);
+    -moz-box-shadow: 4px 25px 65px -50px rgba(0,0,0,0.21);
     padding: 30px 150px ;
     display: flex;
     align-items: center;
